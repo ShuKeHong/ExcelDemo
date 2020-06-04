@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B90AC1624877B7700C852AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC1524877B7700C852AB /* AppDelegate.m */; };
+		9B90AC1924877B7700C852AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC1824877B7700C852AB /* SceneDelegate.m */; };
+		9B90AC1C24877B7700C852AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC1B24877B7700C852AB /* ViewController.m */; };
+		9B90AC1F24877B7700C852AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B90AC1D24877B7700C852AB /* Main.storyboard */; };
+		9B90AC2124877B7800C852AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B90AC2024877B7800C852AB /* Assets.xcassets */; };
+		9B90AC2424877B7900C852AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B90AC2224877B7900C852AB /* LaunchScreen.storyboard */; };
+		9B90AC2724877B7900C852AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC2624877B7900C852AB /* main.m */; };
+		9B90AC3124877B7900C852AB /* SKExcelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC3024877B7900C852AB /* SKExcelDemoTests.m */; };
+		9B90AC3C24877B7900C852AB /* SKExcelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC3B24877B7900C852AB /* SKExcelDemoUITests.m */; };
+		9B90AC4C24878C8C00C852AB /* SKTestWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC4B24878C8C00C852AB /* SKTestWebVC.m */; };
+		9B90AC4F2487902C00C852AB /* SKTestTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC4E2487902C00C852AB /* SKTestTabVC.m */; };
+		9B90AC522487A21600C852AB /* SKTestSeaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC512487A21600C852AB /* SKTestSeaVC.m */; };
+		9B90AC642488856900C852AB /* UIViewController+SKPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC632488856900C852AB /* UIViewController+SKPresentation.m */; };
+		9B90AC9E2488D4E100C852AB /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B90AC822488D4E000C852AB /* Readme.md */; };
+		9B90AC9F2488D4E100C852AB /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC852488D4E000C852AB /* zip.c */; };
+		9B90ACA02488D4E100C852AB /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC862488D4E000C852AB /* ioapi.c */; };
+		9B90ACA12488D4E100C852AB /* tmpfileplus.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC882488D4E000C852AB /* tmpfileplus.c */; };
+		9B90ACA22488D4E100C852AB /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B90AC892488D4E000C852AB /* License.txt */; };
+		9B90ACA32488D4E100C852AB /* shared_strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC8D2488D4E000C852AB /* shared_strings.c */; };
+		9B90ACA42488D4E100C852AB /* packager.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC8E2488D4E000C852AB /* packager.c */; };
+		9B90ACA52488D4E100C852AB /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC8F2488D4E000C852AB /* utility.c */; };
+		9B90ACA62488D4E100C852AB /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC902488D4E000C852AB /* format.c */; };
+		9B90ACA72488D4E100C852AB /* xmlwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC912488D4E000C852AB /* xmlwriter.c */; };
+		9B90ACA82488D4E100C852AB /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC922488D4E000C852AB /* core.c */; };
+		9B90ACA92488D4E100C852AB /* theme.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC932488D4E000C852AB /* theme.c */; };
+		9B90ACAA2488D4E100C852AB /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC942488D4E000C852AB /* custom.c */; };
+		9B90ACAB2488D4E100C852AB /* workbook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC952488D4E000C852AB /* workbook.c */; };
+		9B90ACAC2488D4E100C852AB /* worksheet.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC962488D4E000C852AB /* worksheet.c */; };
+		9B90ACAD2488D4E100C852AB /* drawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC972488D4E000C852AB /* drawing.c */; };
+		9B90ACAE2488D4E100C852AB /* chart.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC982488D4E000C852AB /* chart.c */; };
+		9B90ACAF2488D4E100C852AB /* hash_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC992488D4E000C852AB /* hash_table.c */; };
+		9B90ACB02488D4E100C852AB /* styles.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC9A2488D4E000C852AB /* styles.c */; };
+		9B90ACB12488D4E100C852AB /* relationships.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC9B2488D4E000C852AB /* relationships.c */; };
+		9B90ACB22488D4E100C852AB /* content_types.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC9C2488D4E000C852AB /* content_types.c */; };
+		9B90ACB32488D4E100C852AB /* app.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B90AC9D2488D4E000C852AB /* app.c */; };
+		9B90ACB62488D60200C852AB /* SKExcelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90ACB52488D60200C852AB /* SKExcelVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B90AC2D24877B7900C852AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B90AC0924877B7700C852AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B90AC1024877B7700C852AB;
+			remoteInfo = SKExcelDemo;
+		};
+		9B90AC3824877B7900C852AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B90AC0924877B7700C852AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B90AC1024877B7700C852AB;
+			remoteInfo = SKExcelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B90AC1124877B7700C852AB /* SKExcelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKExcelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90AC1424877B7700C852AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B90AC1524877B7700C852AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B90AC1724877B7700C852AB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9B90AC1824877B7700C852AB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9B90AC1A24877B7700C852AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B90AC1B24877B7700C852AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B90AC1E24877B7700C852AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B90AC2024877B7800C852AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B90AC2324877B7900C852AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B90AC2524877B7900C852AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90AC2624877B7900C852AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B90AC2C24877B7900C852AB /* SKExcelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKExcelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90AC3024877B7900C852AB /* SKExcelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKExcelDemoTests.m; sourceTree = "<group>"; };
+		9B90AC3224877B7900C852AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90AC3724877B7900C852AB /* SKExcelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKExcelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90AC3B24877B7900C852AB /* SKExcelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKExcelDemoUITests.m; sourceTree = "<group>"; };
+		9B90AC3D24877B7900C852AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90AC4924877D2000C852AB /* SKCommon.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCommon.pch; sourceTree = "<group>"; };
+		9B90AC4A24878C8C00C852AB /* SKTestWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTestWebVC.h; sourceTree = "<group>"; };
+		9B90AC4B24878C8C00C852AB /* SKTestWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTestWebVC.m; sourceTree = "<group>"; };
+		9B90AC4D2487902C00C852AB /* SKTestTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTestTabVC.h; sourceTree = "<group>"; };
+		9B90AC4E2487902C00C852AB /* SKTestTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTestTabVC.m; sourceTree = "<group>"; };
+		9B90AC502487A21600C852AB /* SKTestSeaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTestSeaVC.h; sourceTree = "<group>"; };
+		9B90AC512487A21600C852AB /* SKTestSeaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTestSeaVC.m; sourceTree = "<group>"; };
+		9B90AC622488856900C852AB /* UIViewController+SKPresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKPresentation.h"; sourceTree = "<group>"; };
+		9B90AC632488856900C852AB /* UIViewController+SKPresentation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKPresentation.m"; sourceTree = "<group>"; };
+		9B90AC682488D4E000C852AB /* workbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workbook.h; sourceTree = "<group>"; };
+		9B90AC692488D4E000C852AB /* theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theme.h; sourceTree = "<group>"; };
+		9B90AC6A2488D4E000C852AB /* custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = custom.h; sourceTree = "<group>"; };
+		9B90AC6B2488D4E000C852AB /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		9B90AC6C2488D4E000C852AB /* drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawing.h; sourceTree = "<group>"; };
+		9B90AC6D2488D4E000C852AB /* worksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = worksheet.h; sourceTree = "<group>"; };
+		9B90AC6E2488D4E000C852AB /* chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chart.h; sourceTree = "<group>"; };
+		9B90AC6F2488D4E000C852AB /* content_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_types.h; sourceTree = "<group>"; };
+		9B90AC702488D4E000C852AB /* app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app.h; sourceTree = "<group>"; };
+		9B90AC712488D4E000C852AB /* relationships.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relationships.h; sourceTree = "<group>"; };
+		9B90AC722488D4E000C852AB /* styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = styles.h; sourceTree = "<group>"; };
+		9B90AC732488D4E000C852AB /* hash_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash_table.h; sourceTree = "<group>"; };
+		9B90AC742488D4E000C852AB /* packager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packager.h; sourceTree = "<group>"; };
+		9B90AC762488D4E000C852AB /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		9B90AC772488D4E000C852AB /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		9B90AC782488D4E000C852AB /* tmpfileplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmpfileplus.h; sourceTree = "<group>"; };
+		9B90AC792488D4E000C852AB /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		9B90AC7A2488D4E000C852AB /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		9B90AC7B2488D4E000C852AB /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		9B90AC7C2488D4E000C852AB /* shared_strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shared_strings.h; sourceTree = "<group>"; };
+		9B90AC7D2488D4E000C852AB /* libxlsxwriter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libxlsxwriter-umbrella.h"; sourceTree = "<group>"; };
+		9B90AC7E2488D4E000C852AB /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
+		9B90AC7F2488D4E000C852AB /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		9B90AC802488D4E000C852AB /* xmlwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlwriter.h; sourceTree = "<group>"; };
+		9B90AC812488D4E000C852AB /* xlsxwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsxwriter.h; sourceTree = "<group>"; };
+		9B90AC822488D4E000C852AB /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		9B90AC852488D4E000C852AB /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		9B90AC862488D4E000C852AB /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		9B90AC882488D4E000C852AB /* tmpfileplus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tmpfileplus.c; sourceTree = "<group>"; };
+		9B90AC892488D4E000C852AB /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		9B90AC8B2488D4E000C852AB /* libxlsxwriter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = libxlsxwriter.modulemap; sourceTree = "<group>"; };
+		9B90AC8D2488D4E000C852AB /* shared_strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shared_strings.c; sourceTree = "<group>"; };
+		9B90AC8E2488D4E000C852AB /* packager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = packager.c; sourceTree = "<group>"; };
+		9B90AC8F2488D4E000C852AB /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utility.c; sourceTree = "<group>"; };
+		9B90AC902488D4E000C852AB /* format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
+		9B90AC912488D4E000C852AB /* xmlwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmlwriter.c; sourceTree = "<group>"; };
+		9B90AC922488D4E000C852AB /* core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = core.c; sourceTree = "<group>"; };
+		9B90AC932488D4E000C852AB /* theme.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = theme.c; sourceTree = "<group>"; };
+		9B90AC942488D4E000C852AB /* custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = custom.c; sourceTree = "<group>"; };
+		9B90AC952488D4E000C852AB /* workbook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = workbook.c; sourceTree = "<group>"; };
+		9B90AC962488D4E000C852AB /* worksheet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = worksheet.c; sourceTree = "<group>"; };
+		9B90AC972488D4E000C852AB /* drawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawing.c; sourceTree = "<group>"; };
+		9B90AC982488D4E000C852AB /* chart.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chart.c; sourceTree = "<group>"; };
+		9B90AC992488D4E000C852AB /* hash_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash_table.c; sourceTree = "<group>"; };
+		9B90AC9A2488D4E000C852AB /* styles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = styles.c; sourceTree = "<group>"; };
+		9B90AC9B2488D4E000C852AB /* relationships.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = relationships.c; sourceTree = "<group>"; };
+		9B90AC9C2488D4E000C852AB /* content_types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = content_types.c; sourceTree = "<group>"; };
+		9B90AC9D2488D4E000C852AB /* app.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = app.c; sourceTree = "<group>"; };
+		9B90ACB42488D60200C852AB /* SKExcelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKExcelVC.h; sourceTree = "<group>"; };
+		9B90ACB52488D60200C852AB /* SKExcelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKExcelVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B90AC0E24877B7700C852AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC2924877B7900C852AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC3424877B7900C852AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B90AC0824877B7700C852AB = {
+			isa = PBXGroup;
+			children = (
+				9B90AC1324877B7700C852AB /* SKExcelDemo */,
+				9B90AC2F24877B7900C852AB /* SKExcelDemoTests */,
+				9B90AC3A24877B7900C852AB /* SKExcelDemoUITests */,
+				9B90AC1224877B7700C852AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B90AC1224877B7700C852AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC1124877B7700C852AB /* SKExcelDemo.app */,
+				9B90AC2C24877B7900C852AB /* SKExcelDemoTests.xctest */,
+				9B90AC3724877B7900C852AB /* SKExcelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B90AC1324877B7700C852AB /* SKExcelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC1424877B7700C852AB /* AppDelegate.h */,
+				9B90AC1524877B7700C852AB /* AppDelegate.m */,
+				9B90AC1724877B7700C852AB /* SceneDelegate.h */,
+				9B90AC1824877B7700C852AB /* SceneDelegate.m */,
+				9B90AC1A24877B7700C852AB /* ViewController.h */,
+				9B90AC1B24877B7700C852AB /* ViewController.m */,
+				9B90ACB42488D60200C852AB /* SKExcelVC.h */,
+				9B90ACB52488D60200C852AB /* SKExcelVC.m */,
+				9B90AC4A24878C8C00C852AB /* SKTestWebVC.h */,
+				9B90AC4B24878C8C00C852AB /* SKTestWebVC.m */,
+				9B90AC4D2487902C00C852AB /* SKTestTabVC.h */,
+				9B90AC4E2487902C00C852AB /* SKTestTabVC.m */,
+				9B90AC502487A21600C852AB /* SKTestSeaVC.h */,
+				9B90AC512487A21600C852AB /* SKTestSeaVC.m */,
+				9B90AC622488856900C852AB /* UIViewController+SKPresentation.h */,
+				9B90AC632488856900C852AB /* UIViewController+SKPresentation.m */,
+				9B90AC652488D4E000C852AB /* libxlsxwriter */,
+				9B90AC1D24877B7700C852AB /* Main.storyboard */,
+				9B90AC2024877B7800C852AB /* Assets.xcassets */,
+				9B90AC2224877B7900C852AB /* LaunchScreen.storyboard */,
+				9B90AC2524877B7900C852AB /* Info.plist */,
+				9B90AC2624877B7900C852AB /* main.m */,
+				9B90AC4924877D2000C852AB /* SKCommon.pch */,
+			);
+			path = SKExcelDemo;
+			sourceTree = "<group>";
+		};
+		9B90AC2F24877B7900C852AB /* SKExcelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC3024877B7900C852AB /* SKExcelDemoTests.m */,
+				9B90AC3224877B7900C852AB /* Info.plist */,
+			);
+			path = SKExcelDemoTests;
+			sourceTree = "<group>";
+		};
+		9B90AC3A24877B7900C852AB /* SKExcelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC3B24877B7900C852AB /* SKExcelDemoUITests.m */,
+				9B90AC3D24877B7900C852AB /* Info.plist */,
+			);
+			path = SKExcelDemoUITests;
+			sourceTree = "<group>";
+		};
+		9B90AC652488D4E000C852AB /* libxlsxwriter */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC662488D4E000C852AB /* include */,
+				9B90AC822488D4E000C852AB /* Readme.md */,
+				9B90AC832488D4E000C852AB /* third_party */,
+				9B90AC892488D4E000C852AB /* License.txt */,
+				9B90AC8A2488D4E000C852AB /* cocoapods */,
+				9B90AC8C2488D4E000C852AB /* src */,
+			);
+			path = libxlsxwriter;
+			sourceTree = "<group>";
+		};
+		9B90AC662488D4E000C852AB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC672488D4E000C852AB /* xlsxwriter */,
+				9B90AC812488D4E000C852AB /* xlsxwriter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9B90AC672488D4E000C852AB /* xlsxwriter */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC682488D4E000C852AB /* workbook.h */,
+				9B90AC692488D4E000C852AB /* theme.h */,
+				9B90AC6A2488D4E000C852AB /* custom.h */,
+				9B90AC6B2488D4E000C852AB /* core.h */,
+				9B90AC6C2488D4E000C852AB /* drawing.h */,
+				9B90AC6D2488D4E000C852AB /* worksheet.h */,
+				9B90AC6E2488D4E000C852AB /* chart.h */,
+				9B90AC6F2488D4E000C852AB /* content_types.h */,
+				9B90AC702488D4E000C852AB /* app.h */,
+				9B90AC712488D4E000C852AB /* relationships.h */,
+				9B90AC722488D4E000C852AB /* styles.h */,
+				9B90AC732488D4E000C852AB /* hash_table.h */,
+				9B90AC742488D4E000C852AB /* packager.h */,
+				9B90AC752488D4E000C852AB /* third_party */,
+				9B90AC7B2488D4E000C852AB /* common.h */,
+				9B90AC7C2488D4E000C852AB /* shared_strings.h */,
+				9B90AC7D2488D4E000C852AB /* libxlsxwriter-umbrella.h */,
+				9B90AC7E2488D4E000C852AB /* format.h */,
+				9B90AC7F2488D4E000C852AB /* utility.h */,
+				9B90AC802488D4E000C852AB /* xmlwriter.h */,
+			);
+			path = xlsxwriter;
+			sourceTree = "<group>";
+		};
+		9B90AC752488D4E000C852AB /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC762488D4E000C852AB /* tree.h */,
+				9B90AC772488D4E000C852AB /* zip.h */,
+				9B90AC782488D4E000C852AB /* tmpfileplus.h */,
+				9B90AC792488D4E000C852AB /* ioapi.h */,
+				9B90AC7A2488D4E000C852AB /* queue.h */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		9B90AC832488D4E000C852AB /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC842488D4E000C852AB /* minizip */,
+				9B90AC872488D4E000C852AB /* tmpfileplus */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		9B90AC842488D4E000C852AB /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC852488D4E000C852AB /* zip.c */,
+				9B90AC862488D4E000C852AB /* ioapi.c */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		9B90AC872488D4E000C852AB /* tmpfileplus */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC882488D4E000C852AB /* tmpfileplus.c */,
+			);
+			path = tmpfileplus;
+			sourceTree = "<group>";
+		};
+		9B90AC8A2488D4E000C852AB /* cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC8B2488D4E000C852AB /* libxlsxwriter.modulemap */,
+			);
+			path = cocoapods;
+			sourceTree = "<group>";
+		};
+		9B90AC8C2488D4E000C852AB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9B90AC8D2488D4E000C852AB /* shared_strings.c */,
+				9B90AC8E2488D4E000C852AB /* packager.c */,
+				9B90AC8F2488D4E000C852AB /* utility.c */,
+				9B90AC902488D4E000C852AB /* format.c */,
+				9B90AC912488D4E000C852AB /* xmlwriter.c */,
+				9B90AC922488D4E000C852AB /* core.c */,
+				9B90AC932488D4E000C852AB /* theme.c */,
+				9B90AC942488D4E000C852AB /* custom.c */,
+				9B90AC952488D4E000C852AB /* workbook.c */,
+				9B90AC962488D4E000C852AB /* worksheet.c */,
+				9B90AC972488D4E000C852AB /* drawing.c */,
+				9B90AC982488D4E000C852AB /* chart.c */,
+				9B90AC992488D4E000C852AB /* hash_table.c */,
+				9B90AC9A2488D4E000C852AB /* styles.c */,
+				9B90AC9B2488D4E000C852AB /* relationships.c */,
+				9B90AC9C2488D4E000C852AB /* content_types.c */,
+				9B90AC9D2488D4E000C852AB /* app.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B90AC1024877B7700C852AB /* SKExcelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90AC4024877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemo" */;
+			buildPhases = (
+				9B90AC0D24877B7700C852AB /* Sources */,
+				9B90AC0E24877B7700C852AB /* Frameworks */,
+				9B90AC0F24877B7700C852AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKExcelDemo;
+			productName = SKExcelDemo;
+			productReference = 9B90AC1124877B7700C852AB /* SKExcelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B90AC2B24877B7900C852AB /* SKExcelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90AC4324877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemoTests" */;
+			buildPhases = (
+				9B90AC2824877B7900C852AB /* Sources */,
+				9B90AC2924877B7900C852AB /* Frameworks */,
+				9B90AC2A24877B7900C852AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B90AC2E24877B7900C852AB /* PBXTargetDependency */,
+			);
+			name = SKExcelDemoTests;
+			productName = SKExcelDemoTests;
+			productReference = 9B90AC2C24877B7900C852AB /* SKExcelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B90AC3624877B7900C852AB /* SKExcelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90AC4624877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemoUITests" */;
+			buildPhases = (
+				9B90AC3324877B7900C852AB /* Sources */,
+				9B90AC3424877B7900C852AB /* Frameworks */,
+				9B90AC3524877B7900C852AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B90AC3924877B7900C852AB /* PBXTargetDependency */,
+			);
+			name = SKExcelDemoUITests;
+			productName = SKExcelDemoUITests;
+			productReference = 9B90AC3724877B7900C852AB /* SKExcelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B90AC0924877B7700C852AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Da魔王_舒克";
+				TargetAttributes = {
+					9B90AC1024877B7700C852AB = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					9B90AC2B24877B7900C852AB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 9B90AC1024877B7700C852AB;
+					};
+					9B90AC3624877B7900C852AB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 9B90AC1024877B7700C852AB;
+					};
+				};
+			};
+			buildConfigurationList = 9B90AC0C24877B7700C852AB /* Build configuration list for PBXProject "SKExcelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B90AC0824877B7700C852AB;
+			productRefGroup = 9B90AC1224877B7700C852AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B90AC1024877B7700C852AB /* SKExcelDemo */,
+				9B90AC2B24877B7900C852AB /* SKExcelDemoTests */,
+				9B90AC3624877B7900C852AB /* SKExcelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B90AC0F24877B7700C852AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90AC2424877B7900C852AB /* LaunchScreen.storyboard in Resources */,
+				9B90ACA22488D4E100C852AB /* License.txt in Resources */,
+				9B90AC2124877B7800C852AB /* Assets.xcassets in Resources */,
+				9B90AC9E2488D4E100C852AB /* Readme.md in Resources */,
+				9B90AC1F24877B7700C852AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC2A24877B7900C852AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC3524877B7900C852AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B90AC0D24877B7700C852AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90ACAD2488D4E100C852AB /* drawing.c in Sources */,
+				9B90ACB02488D4E100C852AB /* styles.c in Sources */,
+				9B90AC522487A21600C852AB /* SKTestSeaVC.m in Sources */,
+				9B90ACAE2488D4E100C852AB /* chart.c in Sources */,
+				9B90ACA82488D4E100C852AB /* core.c in Sources */,
+				9B90AC4F2487902C00C852AB /* SKTestTabVC.m in Sources */,
+				9B90ACA52488D4E100C852AB /* utility.c in Sources */,
+				9B90AC642488856900C852AB /* UIViewController+SKPresentation.m in Sources */,
+				9B90ACA12488D4E100C852AB /* tmpfileplus.c in Sources */,
+				9B90ACAF2488D4E100C852AB /* hash_table.c in Sources */,
+				9B90ACAC2488D4E100C852AB /* worksheet.c in Sources */,
+				9B90ACAA2488D4E100C852AB /* custom.c in Sources */,
+				9B90ACA42488D4E100C852AB /* packager.c in Sources */,
+				9B90ACB62488D60200C852AB /* SKExcelVC.m in Sources */,
+				9B90ACB22488D4E100C852AB /* content_types.c in Sources */,
+				9B90AC9F2488D4E100C852AB /* zip.c in Sources */,
+				9B90ACAB2488D4E100C852AB /* workbook.c in Sources */,
+				9B90ACA02488D4E100C852AB /* ioapi.c in Sources */,
+				9B90AC1C24877B7700C852AB /* ViewController.m in Sources */,
+				9B90AC1624877B7700C852AB /* AppDelegate.m in Sources */,
+				9B90ACA72488D4E100C852AB /* xmlwriter.c in Sources */,
+				9B90ACA62488D4E100C852AB /* format.c in Sources */,
+				9B90AC2724877B7900C852AB /* main.m in Sources */,
+				9B90ACA32488D4E100C852AB /* shared_strings.c in Sources */,
+				9B90ACA92488D4E100C852AB /* theme.c in Sources */,
+				9B90AC4C24878C8C00C852AB /* SKTestWebVC.m in Sources */,
+				9B90AC1924877B7700C852AB /* SceneDelegate.m in Sources */,
+				9B90ACB12488D4E100C852AB /* relationships.c in Sources */,
+				9B90ACB32488D4E100C852AB /* app.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC2824877B7900C852AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90AC3124877B7900C852AB /* SKExcelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90AC3324877B7900C852AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90AC3C24877B7900C852AB /* SKExcelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B90AC2E24877B7900C852AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B90AC1024877B7700C852AB /* SKExcelDemo */;
+			targetProxy = 9B90AC2D24877B7900C852AB /* PBXContainerItemProxy */;
+		};
+		9B90AC3924877B7900C852AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B90AC1024877B7700C852AB /* SKExcelDemo */;
+			targetProxy = 9B90AC3824877B7900C852AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B90AC1D24877B7700C852AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B90AC1E24877B7700C852AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B90AC2224877B7900C852AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B90AC2324877B7900C852AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B90AC3E24877B7900C852AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B90AC3F24877B7900C852AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B90AC4124877B7900C852AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKExcelDemo/SKCommon.pch";
+				INFOPLIST_FILE = SKExcelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B90AC4224877B7900C852AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKExcelDemo/SKCommon.pch";
+				INFOPLIST_FILE = SKExcelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B90AC4424877B7900C852AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				INFOPLIST_FILE = SKExcelDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKExcelDemo.app/SKExcelDemo";
+			};
+			name = Debug;
+		};
+		9B90AC4524877B7900C852AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				INFOPLIST_FILE = SKExcelDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKExcelDemo.app/SKExcelDemo";
+			};
+			name = Release;
+		};
+		9B90AC4724877B7900C852AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				INFOPLIST_FILE = SKExcelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKExcelDemo;
+			};
+			name = Debug;
+		};
+		9B90AC4824877B7900C852AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7595X3VP53;
+				INFOPLIST_FILE = SKExcelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.SKExcelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKExcelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B90AC0C24877B7700C852AB /* Build configuration list for PBXProject "SKExcelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90AC3E24877B7900C852AB /* Debug */,
+				9B90AC3F24877B7900C852AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B90AC4024877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90AC4124877B7900C852AB /* Debug */,
+				9B90AC4224877B7900C852AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B90AC4324877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90AC4424877B7900C852AB /* Debug */,
+				9B90AC4524877B7900C852AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B90AC4624877B7900C852AB /* Build configuration list for PBXNativeTarget "SKExcelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90AC4724877B7900C852AB /* Debug */,
+				9B90AC4824877B7900C852AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B90AC0924877B7700C852AB /* Project object */;
+}

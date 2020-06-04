@@ -1,0 +1,36 @@
+//
+//  SKCommon.pch
+//  SKExcelDemo
+//
+//  Created by ShuKe on 2020/6/3.
+//  Copyright © 2020 Da魔王_舒克. All rights reserved.
+//
+
+#ifndef SKCommon_pch
+#define SKCommon_pch
+
+
+// 判断是否刘海屏幕
+#define IsBangsScreen ({\
+    BOOL isBangsScreen = NO; \
+    if (@available(iOS 11.0, *)) { \
+    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+    isBangsScreen = window.safeAreaInsets.bottom > 0; \
+    } \
+    isBangsScreen; \
+})
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width // 屏幕宽度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height // 屏幕高度
+#define NAV_H (IsBangsScreen ? 88 : 64) // 导航高度
+#define STA_H (IsBangsScreen ? 44 : 20) // 状态栏高度
+#define SBA_H (IsBangsScreen ? 34 : 0) // 底部安全高度
+#define TAB_H 49 // tabbar高度
+
+#define HEX_COLOR(hexValue) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0f]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SKCommon_pch */
